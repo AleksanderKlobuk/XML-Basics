@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!--  The very first line in xml doc is always xml declaration -->
+<!--  xml: tells that we use element from xml specification -->
+<!--  version: what version of xml we are using -->
+
+<!-- ATRIBUTES-->
+<!--encoding="UTF-8" Is used to specifu the caracters set is used to represent text in our doc.
+        By default it UTF=8 but there us also UTF=16 and other like EUC-JP-->
+<!--standalone="yes" or "no" :tells the xml parser whether doc 
+         exists on it's own or it can use docs from outside(like xml schema)-->
+<!-- location = -->
+
+
+
+<!-- ELEMENTS-->
+<DriverLicence status="suspended"><!--This is root element START With status atribute-->
+    <Number>1234</Number><!--This is child element of DriverLicence and sibling to other child elements-->
+    <FirstName>Alek</FirstName>
+    <lastName>Klobuk</lastName>
+    <DateOfBirth>09/Feb/1990</DateOfBirth>
+    <Vehicle>Car &lt; Car</Vehicle>
+    <DateOfIssue>11/Jul/2015</DateOfIssue>
+
+    <![CDATA[ ***This is CDATA block** We can put all we want here and parser will just ignore this *****]]>
+    <![CDATA[ <ExpiryDate>11/Jul/2025</ExpiryDate> ]]>
+
+    <ExpiryDate>11/Jul/2025</ExpiryDate>
+    <Photo location="servername/filename"></Photo><!-- child element with location atribute-->
+    <NdPhoto location="servername/filename2"/>
+    <Other>Other notes</Other>
+
+    <Adress><!-- This child element is also parent element to Street, City and State-->
+        <Street>1st</Street><!-- grand child element-->
+        <City>Los Angeles</City>
+        <State>California</State>
+    </Adress>
+
+</DriverLicence><!--This is root element END-->
+
+
+
+
+<!-- SPECIAL SYMBOLS-->
+<!-- <    is   &lt;   from lower than-->
+<!-- >    is   &lt;    from greater than-->
+<!-- &    is   &amp;   -->
+<!-- '    is   &quot;   -->
+<!-- "    is   &apos;  -->
+
+
+<!--The only special characters allowed for elemnt's name are 1) - 2) _  3) .    -->

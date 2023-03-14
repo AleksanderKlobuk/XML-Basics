@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="BusinessCard.css"?>
+
+<Businesscard>
+    <name>Alek Klobuk</name>
+    <phone type="home">+48 724-297-315</phone>
+    <phone type='work'>+48 724-297-316</phone>
+    <phone type="mobile">+48 724-297-317</phone>
+    <email>aleksander90@gmail.com</email>
+</Businesscard>

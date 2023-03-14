@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="HotelFoodList.xsl"?>
+ <!--           <?xml-stylesheet type="text/css" href="HotelFoodList.css"?>      -->
+
+<foodlist>
+    <foodItem>
+        <name>Pizza</name>
+        <cost>5$</cost>
+    </foodItem>
+    <!--  This IS COMMENT   -->
+
+    <foodItem>
+        <name>Pasta</name>
+        <cost>400$</cost>
+    </foodItem>
+
+    <foodItem>
+        <name>SeaFood</name>
+        <cost>70$</cost>
+    </foodItem>
+
+</foodlist>
